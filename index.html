@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1" name="viewport">
-<title>Intro-0</title>
+<title>1-Intro</title>
 <style title="Twine CSS">@keyframes appear{0%{opacity:0}to{opacity:1}}@keyframes fade-in-out{0%,to{opacity:0}50%{opacity:1}}@keyframes rumble{25%{top:-0.1em}75%{top:.1em}0%,to{top:0px}}@keyframes shudder{25%{left:.1em}75%{left:-0.1em}0%,to{left:0px}}@keyframes buoy{25%{top:.25em}75%{top:-0.25em}0%,to{top:0px}}@keyframes sway{25%{left:.25em}75%{left:-0.25em}0%,to{left:0px}}@keyframes pulse{0%{transform:scale(0, 0)}20%{transform:scale(1.2, 1.2)}40%{transform:scale(0.9, 0.9)}60%{transform:scale(1.05, 1.05)}80%{transform:scale(0.925, 0.925)}to{transform:scale(1, 1)}}@keyframes zoom-in{0%{transform:scale(0, 0)}to{transform:scale(1, 1)}}@keyframes shudder-in{0%,to{transform:translateX(0em)}5%,25%,45%{transform:translateX(-1em)}15%,35%,55%{transform:translateX(1em)}65%{transform:translateX(-0.6em)}75%{transform:translateX(0.6em)}85%{transform:translateX(-0.2em)}95%{transform:translateX(0.2em)}}@keyframes rumble-in{0%,to{transform:translateY(0em)}5%,25%,45%{transform:translateY(-1em)}15%,35%,55%{transform:translateY(1em)}65%{transform:translateY(-0.6em)}75%{transform:translateY(0.6em)}85%{transform:translateY(-0.2em)}95%{transform:translateY(0.2em)}}@keyframes fidget{0%,8.1%,82.1%,31.1%,38.1%,44.1%,40.1%,47.1%,74.1%,16.1%,27.1%,72.1%,24.1%,95.1%,6.1%,36.1%,20.1%,4.1%,91.1%,14.1%,87.1%,to{left:0px;top:0px}8%,82%,31%,38%,44%{left:-1px}40%,47%,74%,16%,27%{left:1px}72%,24%,95%,6%,36%{top:-1px}20%,4%,91%,14%,87%{top:1px}}@keyframes slide-right{0%{transform:translateX(-100vw)}}@keyframes slide-left{0%{transform:translateX(100vw)}}@keyframes slide-up{0%{transform:translateY(100vh)}}@keyframes slide-down{0%{transform:translateY(-100vh)}}@keyframes fade-right{0%{opacity:0;transform:translateX(-1em)}to{opacity:1}}@keyframes fade-left{0%{opacity:0;transform:translateX(1em)}to{opacity:1}}@keyframes fade-up{0%{opacity:0;transform:translateY(1em)}to{opacity:1}}@keyframes fade-down{0%{opacity:0;transform:translateY(-1em)}to{opacity:1}}@keyframes flicker{0%,29%,31%,63%,65%,77%,79%,86%,88%,91%,93%{opacity:0}30%{opacity:.2}64%{opacity:.4}78%{opacity:.6}87%{opacity:.8}92%,to{opacity:1}}@keyframes blur{0%{filter:blur(2rem);opacity:0}25%{opacity:1}to{filter:blur(0rem);opacity:1}}.dom-debug-mode tw-story,.dom-debug-mode tw-passage,.dom-debug-mode tw-sidebar,.dom-debug-mode tw-include,.dom-debug-mode tw-hook,.dom-debug-mode tw-expression,.dom-debug-mode tw-link,.dom-debug-mode tw-dialog,.dom-debug-mode tw-columns,.dom-debug-mode tw-column,.dom-debug-mode tw-align{outline:1px solid #f5a3da;min-height:32px;display:block !important}.dom-debug-mode tw-story::before,.dom-debug-mode tw-passage::before,.dom-debug-mode tw-sidebar::before,.dom-debug-mode tw-include::before,.dom-debug-mode tw-hook::before,.dom-debug-mode tw-expression::before,.dom-debug-mode tw-link::before,.dom-debug-mode tw-dialog::before,.dom-debug-mode tw-columns::before,.dom-debug-mode tw-column::before,.dom-debug-mode tw-align::before{position:absolute;top:0;left:0;height:16px;background-color:#f5a3da;color:#000;font-size:16px;font-weight:normal;font-style:normal;font-family:monospace;display:inline-block;line-height:100%;white-space:pre;z-index:999997}.dom-debug-mode tw-story:hover,.dom-debug-mode tw-passage:hover,.dom-debug-mode tw-sidebar:hover,.dom-debug-mode tw-include:hover,.dom-debug-mode tw-hook:hover,.dom-debug-mode tw-expression:hover,.dom-debug-mode tw-link:hover,.dom-debug-mode tw-dialog:hover,.dom-debug-mode tw-columns:hover,.dom-debug-mode tw-column:hover,.dom-debug-mode tw-align:hover{outline:1px solid #fc9}.dom-debug-mode tw-story:hover::before,.dom-debug-mode tw-passage:hover::before,.dom-debug-mode tw-sidebar:hover::before,.dom-debug-mode tw-include:hover::before,.dom-debug-mode tw-hook:hover::before,.dom-debug-mode tw-expression:hover::before,.dom-debug-mode tw-link:hover::before,.dom-debug-mode tw-dialog:hover::before,.dom-debug-mode tw-columns:hover::before,.dom-debug-mode tw-column:hover::before,.dom-debug-mode tw-align:hover::before{background-color:#fc9;transition:background-color 1s}.dom-debug-mode tw-passage,.dom-debug-mode tw-include,.dom-debug-mode tw-hook,.dom-debug-mode tw-expression,.dom-debug-mode tw-link,.dom-debug-mode tw-dialog,.dom-debug-mode tw-columns,.dom-debug-mode tw-column,.dom-debug-mode tw-align{padding:1em;margin:0}.dom-debug-mode tw-story::before{content:'<tw-story tags="' attr(tags) '">'}.dom-debug-mode tw-passage::before{top:-16px;content:'<tw-passage tags="' attr(tags) '">'}.dom-debug-mode tw-sidebar::before{top:-16px;content:"<tw-sidebar>"}.dom-debug-mode tw-hook::before{content:'<tw-hook name="' attr(name) '">'}.dom-debug-mode tw-expression::before{content:'<tw-expression name="' attr(name) '">'}.dom-debug-mode tw-link::before{content:'<tw-link name="' attr(name) '">'}.dom-debug-mode tw-dialog::before{content:"<tw-dialog>"}.dom-debug-mode tw-columns::before{content:"<tw-columns>"}.dom-debug-mode tw-column::before{content:"<tw-column>"}.dom-debug-mode tw-align::before{content:"<tw-align>"}.dom-debug-mode tw-include::before{content:'<tw-include type="' attr(type) '" name="' attr(name) '">'}tw-open-button[goto]{display:none}.debug-mode tw-open-button[replay],.debug-mode tw-open-button[goto]{display:inline}.debug-mode tw-expression{display:inline-block !important}.debug-mode tw-expression[type=variable]::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"$" attr(name)}.debug-mode tw-expression[type=tempVariable]::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"_" attr(name)}.debug-mode tw-expression[return=boolean]{background-color:rgba(179,179,179,.2)}.debug-mode tw-expression[return=array]{background-color:rgba(255,102,102,.2)}.debug-mode tw-expression[return=dataset]{background-color:rgba(255,128,0,.2)}.debug-mode tw-expression[return=number]{background-color:rgba(255,179,102,.2)}.debug-mode tw-expression[return=datamap]{background-color:rgba(255,255,102,.2)}.debug-mode tw-expression[return=changer]{background-color:rgba(179,255,102,.2)}.debug-mode tw-expression[return=lambda]{background-color:rgba(102,255,102,.2)}.debug-mode tw-expression[return=hookname]{background-color:rgba(102,255,204,.2)}.debug-mode tw-expression[return=string]{background-color:rgba(102,255,255,.2)}.debug-mode tw-expression[return=datatype]{background-color:rgba(102,153,255,.2)}.debug-mode tw-expression[return=gradient],.debug-mode tw-expression[return=colour]{background-color:rgba(204,102,255,.2)}.debug-mode tw-expression[return=instant],.debug-mode tw-expression[return=macro]{background-color:rgba(240,117,199,.2)}.debug-mode tw-expression[return=command]{background-color:rgba(153,153,255,.2)}.debug-mode tw-expression.false{background-color:rgba(255,0,0,.2) !important}.debug-mode tw-expression[type=macro]::before{content:"(" attr(name) ":)";padding:0 .5rem;font-size:1rem;vertical-align:middle;line-height:normal;background-color:inherit;border:1px solid rgba(255,255,255,.5)}.debug-mode tw-expression[title]:not([title=""]){cursor:help}.debug-mode tw-hook{background-color:rgba(0,85,255,.1) !important}.debug-mode tw-hook::before{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"["}.debug-mode tw-hook::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"]"}.debug-mode tw-hook[name]::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"]<" attr(name) "|"}.debug-mode tw-pseudo-hook{background-color:rgba(255,170,0,.1) !important}.debug-mode tw-collapsed::before{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"{"}.debug-mode tw-collapsed::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"}"}.debug-mode tw-verbatim::before,.debug-mode tw-verbatim::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"`"}.debug-mode tw-align[style*="text-align: center"]{background:linear-gradient(to right, hsla(14, 100%, 87%, 0) 0%, hsla(14, 100%, 87%, 0.25) 50%, hsla(14, 100%, 87%, 0) 100%)}.debug-mode tw-align[style*="text-align: left"]{background:linear-gradient(to right, hsla(14, 100%, 87%, 0.25) 0%, hsla(14, 100%, 87%, 0) 100%)}.debug-mode tw-align[style*="text-align: right"]{background:linear-gradient(to right, hsla(14, 100%, 87%, 0) 0%, hsla(14, 100%, 87%, 0.25) 100%)}.debug-mode tw-column{background-color:rgba(189,228,255,.2)}.debug-mode tw-enchantment{animation:enchantment .5s infinite;border:1px solid}.debug-mode tw-link::after,.debug-mode tw-broken-link::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:attr(passage-name)}.debug-mode tw-include{background-color:rgba(204,128,51,.1)}.debug-mode tw-include::before{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:attr(type) ' "' attr(name) '"'}.debug-dialogs tw-backdrop:not(.eval-replay):not(.harlowe-crash){pointer-events:none;opacity:.1}tw-eval-replay tw-eval-code,tw-eval-replay tw-eval-explanation{max-height:20vh;overflow:auto;margin:10px auto}tw-eval-replay tw-eval-code{display:block;font-family:monospace;padding-bottom:1ex;border-bottom:2px solid gray}tw-eval-replay tw-eval-explanation{display:block;text-align:center}tw-eval-replay tw-eval-explanation>code{white-space:pre-wrap}tw-eval-replay tw-eval-explanation>code.from-block{width:40%;display:inline-block;text-align:left;max-height:4em;overflow-wrap:anywhere;overflow-y:scroll}tw-eval-replay tw-eval-explanation>code.from-block~.to-desc{width:calc(40% - 2em);margin-left:2em;display:inline-block}tw-eval-replay tw-eval-explanation>code.from-block+span::after{content:"..."}tw-eval-replay tw-eval-explanation>code.from-inline{text-align:right}tw-eval-replay tw-eval-explanation>:nth-child(2){white-space:pre}tw-eval-replay tw-eval-explanation>.to-desc{text-align:left}tw-eval-replay tw-eval-explanation>table{width:100%;margin-top:1em}tw-eval-replay tw-eval-explanation>table td{white-space:pre-wrap !important;word-wrap:anywhere}tw-eval-replay tw-eval-reason{text-align:center;font-size:80%;font-style:italic;display:block}tw-eval-replay tw-eval-it{text-align:center;font-size:80%;display:block}tw-eval-replay tw-dialog-links{display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around}@keyframes enchantment{0%,to{border-color:#ffb366}50%{border-color:#6fc}}tw-debugger{position:fixed;box-sizing:border-box;bottom:0;right:0;z-index:999999;min-width:14em;min-height:1em;padding:0em .5em .5em 1em;font-size:1.25em;font-family:sans-serif;color:#262626;background-color:#fff;border-left:solid #262626 2px;border-top:solid #262626 2px;border-top-left-radius:.5em;opacity:1}tw-debugger.fade-panel:not(:hover){opacity:.33}tw-debugger.theme-dark{color:#d9d9d9;background-color:#000}tw-debugger.theme-dark{border-color:#d9d9d9 rgba(0,0,0,0) rgba(0,0,0,0) #d9d9d9}tw-debugger select{margin-right:1em;width:12em}tw-debugger button,tw-debugger tw-link{border-radius:3px;border:solid #999 1px;margin:auto 4px;color:#262626;background-color:#fff;cursor:pointer}tw-debugger button.enabled,tw-debugger tw-link.enabled{color:#000;background-color:#d9d9d9;box-shadow:inset #999 3px 5px .5em}tw-debugger.theme-dark button,tw-debugger.theme-dark tw-link{color:#d9d9d9;background-color:#000;border-color:#666}tw-debugger.theme-dark button.enabled,tw-debugger.theme-dark tw-link.enabled{color:#e6e6e6;background-color:#424242;box-shadow:inset #666 3px 5px .5em}tw-debugger button{font-size:1em;overflow-x:hidden;text-overflow:ellipsis;white-space:pre}tw-debugger tw-link{font-size:1.25em;border-radius:16px;border-style:solid;border-width:2px;text-align:center;padding:0px 8px;display:block}tw-debugger tw-link:hover{border-color:#262626;color:#262626}tw-debugger.theme-dark tw-link:hover{border-color:#d9d9d9;color:#d9d9d9}tw-debugger tw-dialog{background-color:#fff;color:#000;font-size:1.25em}tw-debugger.theme-dark tw-dialog{background-color:#000;color:#e6e6e6}tw-debugger .panel{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;position:absolute;bottom:100%;left:-2px;right:0;padding:1em;overflow-y:scroll;overflow-x:hidden;border:inherit;box-sizing:content-box;background-color:#fff;border-bottom:solid #999 2px;border-top-left-radius:.5em;border-bottom-left-radius:.5em;font-size:.8em}tw-debugger .panel:empty,tw-debugger .panel[hidden]{display:none}tw-debugger.theme-dark .panel{background-color:#000;border-bottom-color:#666}tw-debugger .panel-source .panel-row-buttons{width:2rem}tw-debugger .panel-source .source-tags{width:20%;font-style:italic}tw-debugger .panel-row-source td{font-family:monospace;font-size:1rem;white-space:pre-wrap;overflow-wrap:anywhere;max-height:8rem;padding:1rem}tw-debugger .panel-rows{width:100%;overflow-x:scroll}tw-debugger .panel-rows>*{display:table-row}tw-debugger .panel-rows>div:nth-of-type(2n){background-color:#e6e6e6}tw-debugger .panel-tools .panel-rows>*,tw-debugger .panel-options .panel-rows>*{margin-top:.4rem;display:block}tw-debugger.theme-dark .panel-rows>div:nth-of-type(2n){background-color:#212121}tw-debugger .panel-row-buttons{text-align:right}tw-debugger .panel-variables .panel-rows:empty::before{content:"~ No variables ~";font-style:italic;color:#575757;text-align:center}tw-debugger .panel-enchantments .panel-rows:empty::before{content:"~ No enchantments ~";font-style:italic;color:#575757;text-align:center}tw-debugger .panel-errors .panel-rows:empty::before{content:"~ No errors... for now. ~";font-style:italic;color:#575757;text-align:center}tw-debugger .panel-errors .panel-rows:empty+.panel-errors-bottom{display:none}tw-debugger.theme-dark .panel-variables .panel-rows:empty::before,tw-debugger.theme-dark .panel-enchantments .panel-rows:empty::before,tw-debugger.theme-dark .panel-errors .panel-rows:empty::before{color:#a8a8a8}tw-debugger .panel-rows:empty+.panel-variables-bottom{display:none}tw-debugger th[data-col]{text-decoration:underline;cursor:pointer}tw-debugger th[data-col][data-order=asc]::after{content:"↓"}tw-debugger th[data-col][data-order=desc]::after{content:"↑"}tw-debugger .panel-storylets:not(.panel-exclusive) .storylet-exclusive,tw-debugger .panel-storylets:not(.panel-urgent) .storylet-urgent{display:none}tw-debugger .storylet-exclusive,tw-debugger .storylet-urgent,tw-debugger .storylet-open{text-align:center}tw-debugger .panel-variables-bottom{padding-top:5px}tw-debugger .enchantment-row{min-height:1.5em}tw-debugger .variable-path{opacity:.4}tw-debugger .temporary-variable-scope,tw-debugger .enchantment-local{font-family:sans-serif;font-weight:normal;opacity:.8;font-size:.75em}tw-debugger .temporary-variable-scope:not(:empty)::before,tw-debugger .enchantment-local:not(:empty)::before{content:" in "}tw-debugger .variable-name,tw-debugger .enchantment-name{font-family:monospace;font-weight:bold}tw-debugger .variable-type{color:#575757;font-weight:normal;text-overflow:ellipsis;overflow:hidden;max-width:10em}tw-debugger.theme-dark .variable-type{color:#a8a8a8}tw-debugger .error-row{display:table-row;background-color:rgba(230,101,204,.3)}tw-debugger .error-row:nth-of-type(2n){background-color:rgba(237,145,219,.3)}tw-debugger .error-row>*{display:table-cell;padding:.25em .5em}tw-debugger .error-row .error-message[title]:not([title=""]){cursor:help}tw-debugger .error-row .error-passage{color:#575757}tw-debugger.theme-dark .error-row .error-passage{color:#a8a8a8}tw-debugger .storylet-row{background-color:rgba(193,240,225,.3)}tw-debugger .storylet-row:nth-child(2n){background-color:rgba(152,231,204,.3)}tw-debugger .storylet-row.storylet-closed{font-style:italic;background-color:#fff}tw-debugger .storylet-row.storylet-closed:nth-child(2n){background-color:#e6e6e6}tw-debugger .storylet-row.storylet-closed>:not(.storylet-lambda){opacity:.6}.storylet-error tw-debugger .storylet-row{background-color:rgba(230,101,204,.3)}.storylet-error tw-debugger .storylet-row:nth-child(2n){background-color:rgba(237,145,219,.3)}tw-debugger .storylet-row .storylet-name,tw-debugger .storylet-row .storylet-value{display:inline-block;width:50%}tw-debugger .storylet-row .storylet-lambda{font-family:monospace;font-size:1rem;white-space:pre-wrap;overflow-wrap:anywhere}tw-debugger.theme-dark .storylet-row.storylet-closed{background-color:#000}tw-debugger.theme-dark .storylet-row.storylet-closed:nth-child(2n){background-color:#212121}tw-debugger .tabs{padding-bottom:.5em}tw-debugger .tab{border-radius:0px 0px .5em .5em;border-top:none;top:-2px}tw-debugger .resizer-h{position:absolute;height:14em;border-left:2px solid #999;border-right:2px solid #999;top:10px;left:4px;width:8px;cursor:ew-resize}tw-debugger.theme-dark .resizer-h{border-color:rgba(0,0,0,0) #666}tw-debugger .resizer-v{position:absolute;height:8px;border-top:2px solid #999;border-bottom:2px solid #999;margin-bottom:4px;top:4px;left:10px;width:95%;cursor:ns-resize;box-sizing:border-box}tw-debugger.theme-dark .resizer-v{border-color:#666 rgba(0,0,0,0)}tw-debugger mark{color:inherit;background-color:rgba(101,230,230,.3) !important}tw-dialog{z-index:999997;border:#fff solid 2px;padding:2em;color:#fff;background-color:#000;display:block}@media(min-width: 576px){tw-dialog{max-width:50vw}}tw-dialog input[type=text]{font-size:inherit;width:100%;border:solid #fff !important}tw-dialog-links{text-align:right;display:-ms-flexbox;display:flex;-ms-flex-pack:end;justify-content:flex-end}tw-backdrop{z-index:999996;position:fixed;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,.8);display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center}tw-backdrop~tw-backdrop{display:none}tw-link,.enchantment-link{cursor:pointer;color:#4169e1;font-weight:bold;text-decoration:none;transition:color .2s ease-in-out}tw-passage [style^=color] tw-link:not(:hover),tw-passage [style*=" color"] tw-link:not(:hover),tw-passage [style^=color][hover=true] tw-link:hover,tw-passage [style*=" color"][hover=true] tw-link:hover,tw-passage [style^=color] .enchantment-link:not(:hover),tw-passage [style*=" color"] .enchantment-link:not(:hover),tw-passage [style^=color][hover=true] .enchantment-link:hover,tw-passage [style*=" color"][hover=true] .enchantment-link:hover{color:inherit}tw-link:hover,.enchantment-link:hover{color:#00bfff}tw-link:active,.enchantment-link:active{color:#dd4b39}.visited{color:#6941e1}tw-passage [style^=color] .visited:not(:hover),tw-passage [style*=" color"] .visited:not(:hover),tw-passage [style^=color][hover=true] .visited:hover,tw-passage [style*=" color"][hover=true] .visited:hover{color:inherit}.visited:hover{color:#e3e}tw-broken-link{color:#933;border-bottom:2px solid #933;cursor:not-allowed}tw-passage [style^=color] tw-broken-link:not(:hover),tw-passage [style*=" color"] tw-broken-link:not(:hover),tw-passage [style^=color][hover=true] tw-broken-link:hover,tw-passage [style*=" color"][hover=true] tw-broken-link:hover{color:inherit}tw-link.enchantment-mouseover,.link.enchantment-mouseover,tw-expression.enchantment-mouseover>tw-link{color:inherit;font-weight:inherit;transition:none;cursor:inherit;border-bottom:2px dashed #999}tw-link.enchantment-mouseover:hover,tw-link.enchantment-mouseover:active,.link.enchantment-mouseover:hover,.link.enchantment-mouseover:active,tw-expression.enchantment-mouseover>tw-link:hover,tw-expression.enchantment-mouseover>tw-link:active{color:inherit}tw-link.enchantment-mouseover.enchantment-button,.link.enchantment-mouseover.enchantment-button,tw-expression.enchantment-mouseover>tw-link.enchantment-button{border-style:dashed}tw-link.enchantment-mouseout,.link.enchantment-mouseout,tw-expression.enchantment-mouseout>tw-link{color:inherit;font-weight:inherit;transition:none;cursor:inherit;border:rgba(64,149,191,.6) 1px solid;border-radius:.2em}tw-link.enchantment-mouseout:hover,tw-link.enchantment-mouseout:active,.link.enchantment-mouseout:hover,.link.enchantment-mouseout:active,tw-expression.enchantment-mouseout>tw-link:hover,tw-expression.enchantment-mouseout>tw-link:active{color:inherit}tw-link.enchantment-mouseout:hover,.link.enchantment-mouseout:hover,tw-expression.enchantment-mouseout>tw-link:hover{background-color:rgba(175,197,207,.75);border:rgba(0,0,0,0) 1px solid}tw-link.enchantment-dblclick,.link.enchantment-dblclick,tw-expression.enchantment-dblclick>tw-link{color:inherit;font-weight:inherit;transition:none;cursor:inherit;cursor:pointer;border:2px solid #999;border-radius:0}tw-link.enchantment-dblclick:hover,tw-link.enchantment-dblclick:active,.link.enchantment-dblclick:hover,.link.enchantment-dblclick:active,tw-expression.enchantment-dblclick>tw-link:hover,tw-expression.enchantment-dblclick>tw-link:active{color:inherit}tw-link.enchantment-dblclick:active,.link.enchantment-dblclick:active,tw-expression.enchantment-dblclick>tw-link:active{background-color:#999}tw-link.enchantment-button,.link.enchantment-button,.enchantment-button:not(.link) tw-link,.enchantment-button:not(.link) .link{border-radius:16px;border-style:solid;border-width:2px;text-align:center;padding:0px 8px;display:block}.enchantment-button{display:block}.enchantment-clickblock{cursor:pointer;width:100%;height:100%;display:block}.enchantment-clickblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;color:rgba(65,105,225,.5);transition:color .2s ease-in-out}.enchantment-clickblock>:not(tw-enchantment):hover::after{color:rgba(0,191,255,.5)}.enchantment-clickblock>:not(tw-enchantment):active::after{color:rgba(222,78,59,.5)}.enchantment-clickblock>:not(tw-enchantment)::after{box-shadow:inset 0 0 0 .5vmax}.enchantment-clickblock>tw-passage::after,.enchantment-clickblock>tw-sidebar::after{box-shadow:0 0 0 .5vmax}.enchantment-mouseoverblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;border:2px dashed #999}.enchantment-mouseoutblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;border:rgba(64,149,191,.6) 2px solid}.enchantment-mouseoutblock:hover>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;background-color:rgba(175,197,207,.75);border:rgba(0,0,0,0) 2px solid;border-radius:.2em}.enchantment-dblclickblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;cursor:pointer;border:2px solid #999}tw-dialog-links{padding-top:1.5em}tw-dialog-links tw-link{border-radius:16px;border-style:solid;border-width:2px;text-align:center;padding:0px 8px;display:block;display:inline-block}html{margin:0;height:100%;overflow-x:hidden}*,:before,:after{position:relative;box-sizing:inherit}body{margin:0;height:100%}tw-storydata{display:none}tw-story{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;font:100% Georgia,serif;box-sizing:border-box;width:100%;min-height:100%;font-size:1.5em;line-height:1.5em;padding:5% 5%;overflow:hidden;background-color:#000;color:#fff}tw-story [style*=content-box] *{box-sizing:border-box}@media(min-width: 576px){tw-story{padding:5% 20%}}tw-story tw-consecutive-br{display:block;height:1.6ex;visibility:hidden}tw-story select{background-color:rgba(0,0,0,0);font:inherit;border-style:solid;padding:2px}tw-story select:not([disabled]){color:inherit}tw-story textarea{resize:none;background-color:rgba(0,0,0,0);font:inherit;color:inherit;border-style:none;padding:2px}tw-story input[type=text]{background-color:rgba(0,0,0,0);font:inherit;color:inherit;border-style:none}tw-story input[type=checkbox]{transform:scale(1.5);margin:0 .5em .5em .5em;vertical-align:middle}tw-story tw-noscript{animation:appear .8s}tw-passage{display:block}tw-sidebar{text-align:center;display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between}@media(min-width: 576px){tw-sidebar{left:-5em;width:3em;position:absolute;-ms-flex-direction:column;flex-direction:column}tw-enchantment[style*=width]>tw-sidebar{width:inherit}}tw-icon{display:inline-block;margin:.5em 0;font-size:66px;font-family:"Verdana",sans-serif}tw-icon[alt]{opacity:.2;cursor:pointer}tw-icon[alt]:hover{opacity:.4}tw-icon[data-label]::after{font-weight:bold;content:attr(data-label);font-size:20px;bottom:-20px;left:-50%;white-space:nowrap}tw-meter{display:block}tw-hook:empty,tw-expression:empty{display:none}tw-error{display:inline-block;border-radius:.2em;padding:.2em;font-size:1rem;cursor:help;white-space:pre-wrap}tw-error.error{background-color:rgba(223,58,190,.6);color:#fff}tw-error.warning{background-color:rgba(223,140,58,.6);color:#fff;display:none}.debug-mode tw-error.warning{display:inline}tw-error-explanation{display:block;font-size:.8rem;line-height:1rem}tw-open-button,tw-folddown{cursor:pointer;line-height:0em;border-radius:4px;border:1px solid rgba(255,255,255,.5);font-size:.8rem;margin:0 .2rem;padding:3px;white-space:pre}tw-folddown::after{content:"▶"}tw-folddown.open::after{content:"▼"}tw-open-button[replay]{display:none}tw-error tw-open-button,tw-eval-replay tw-open-button{display:inline !important}tw-open-button::after{content:attr(label)}tw-notifier{border-radius:.2em;padding:.2em;font-size:1rem;background-color:rgba(223,182,58,.4);display:none}.debug-mode tw-notifier{display:inline}tw-notifier::before{content:attr(message)}tw-colour{border:1px solid #000;display:inline-block;width:1em;height:1em}tw-enchantment:empty{display:none}h1{font-size:3em}h2{font-size:2.25em}h3{font-size:1.75em}h1,h2,h3,h4,h5,h6{line-height:1em;margin:.3em 0 .6em 0}pre{font-size:1rem;line-height:initial}small{font-size:70%}big{font-size:120%}mark{color:rgba(0,0,0,.6);background-color:#ff9}ins{color:rgba(0,0,0,.6);background-color:rgba(255,242,204,.5);border-radius:.5em;box-shadow:0em 0em .2em #ffe699;text-decoration:none}center{text-align:center;margin:0 auto;width:60%}blink{text-decoration:none;animation:fade-in-out 1s steps(1, end) infinite alternate}tw-align{display:block}tw-columns{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-pack:justify;justify-content:space-between}.transition-in{animation:appear 0ms step-start}.transition-out{animation:appear 0ms step-end}[data-t8n^=dissolve].transition-in,[data-t8n=fade].transition-in{animation:appear .8s}[data-t8n^=dissolve].transition-out,[data-t8n=fade].transition-out{animation:appear .8s reverse}[data-t8n^=shudder].transition-in{display:inline-block !important;animation:shudder-in .8s}[data-t8n^=shudder].transition-out{display:inline-block !important;animation:shudder-in .8s reverse}[data-t8n^=rumble].transition-in{display:inline-block !important;animation:rumble-in .8s}[data-t8n^=rumble].transition-out{display:inline-block !important;animation:rumble-in .8s reverse}[data-t8n^=pulse].transition-in{animation:pulse .8s;display:inline-block !important}[data-t8n^=pulse].transition-out{animation:pulse .8s reverse;display:inline-block !important}[data-t8n^=zoom].transition-in{animation:zoom-in .8s;display:inline-block !important}[data-t8n^=zoom].transition-out{animation:zoom-in .8s reverse;display:inline-block !important}[data-t8n^=blur].transition-in{animation:blur .8s;display:inline-block !important}[data-t8n^=blur].transition-out{animation:blur .8s reverse;display:inline-block !important}[data-t8n^=slideleft].transition-in{animation:slide-left .8s;display:inline-block !important}[data-t8n^=slideleft].transition-out{animation:slide-right .8s reverse;display:inline-block !important}[data-t8n^=slideright].transition-in{animation:slide-right .8s;display:inline-block !important}[data-t8n^=slideright].transition-out{animation:slide-left .8s reverse;display:inline-block !important}[data-t8n^=slideup].transition-in{animation:slide-up .8s;display:inline-block !important}[data-t8n^=slideup].transition-out{animation:slide-down .8s reverse;display:inline-block !important}[data-t8n^=slidedown].transition-in{animation:slide-down .8s;display:inline-block !important}[data-t8n^=slidedown].transition-out{animation:slide-up .8s reverse;display:inline-block !important}[data-t8n^=fadeleft].transition-in{animation:fade-left .8s;display:inline-block !important}[data-t8n^=fadeleft].transition-out{animation:fade-right .8s reverse;display:inline-block !important}[data-t8n^=faderight].transition-in{animation:fade-right .8s;display:inline-block !important}[data-t8n^=faderight].transition-out{animation:fade-left .8s reverse;display:inline-block !important}[data-t8n^=fadeup].transition-in{animation:fade-up .8s;display:inline-block !important}[data-t8n^=fadeup].transition-out{animation:fade-down .8s reverse;display:inline-block !important}[data-t8n^=fadedown].transition-in{animation:fade-down .8s;display:inline-block !important}[data-t8n^=fadedown].transition-out{animation:fade-up .8s reverse;display:inline-block !important}[data-t8n^=flicker].transition-in{animation:flicker .8s}[data-t8n^=flicker].transition-out{animation:flicker .8s reverse}
 </style>
 </head>
 <body>
-<tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Intro-0.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Intro-0" startnode="6" creator="Twine" creator-version="2.11.1" format="Harlowe" format-version="3.3.9" ifid="41901DEB-50ED-4CDE-B69C-38CE4A668EEE" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* 1. 导入思源黑体 */
+<tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play 1-Intro.</tw-noscript></noscript></tw-story>
+<tw-storydata name="1-Intro" startnode="6" creator="Twine" creator-version="2.11.1" format="Harlowe" format-version="3.3.9" ifid="41901DEB-50ED-4CDE-B69C-38CE4A668EEE" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* 1. 导入思源黑体 */
 @import url("https://fontsapi.zeoseven.com/69/main/result.css");
 
 /* 2. 强制全局统一 */
@@ -89,7 +89,7 @@ tw-sidebar { display: none; }</style><script role="script" id="twine-user-script
 .choice-container {
     margin-top: 20px;
 }
-&lt;/style&gt;</tw-passagedata><tw-passagedata pid="2" name="1" tags="" position="1350,600" size="100,100">(enchant: ?page, (text-colour: #3c3c6d) + (bg: #dee0d7))
+&lt;/style&gt;</tw-passagedata><tw-passagedata pid="2" name="1" tags="" position="1450,575" size="100,100">(enchant: ?page, (text-colour: #3c3c6d) + (bg: #dee0d7))
 
 {
 &lt;div class=&quot;story-wrapper&quot;&gt;
@@ -152,48 +152,54 @@ tw-sidebar { display: none; }</style><script role="script" id="twine-user-script
 .choice-spacer {
     height: 20px;
 }
-&lt;/style&gt;</tw-passagedata><tw-passagedata pid="3" name="2" tags="" position="1725,950" size="100,100">(enchant:?page,(text-colour:#3c3c6d)+(bg:#dee0d7))
+&lt;/style&gt;</tw-passagedata><tw-passagedata pid="3" name="社区2" tags="" position="1650,900" size="100,100">(enchant:?page,(text-colour:#3c3c6d)+(bg:#dee0d7))
 
 {
 &lt;div class=&quot;story-wrapper&quot;&gt;
 
-&lt;div class=&quot;narrative-block&quot;&gt;
-你选择了调查社区。&lt;br&gt;
-你眯眼观察着，试图寻找到一些值得注意的地方。
-&lt;/div&gt;
+  &lt;div class=&quot;narrative-block&quot;&gt;
+    你来到了集市。&lt;br&gt;
+    这里支着许多顶五颜六色的帐篷，但大多还处于闭店状态。
+  &lt;/div&gt;
 
-&lt;hr class=&quot;simple-divider&quot;&gt;
+  &lt;div class=&quot;narrative-block&quot;&gt;
+    你眯起眼四下打量，试图在那些堆叠的木箱与帆布阴影中，找出些被他人遗漏的线索。
+  &lt;/div&gt;
 
-(set: $roll to (random: 1, 20))
-&lt;div class=&quot;dice-box&quot;&gt;
-  [ 检定：中等 ]&lt;br&gt;
-  D20 投掷结果：&#39;&#39;$roll&#39;&#39;
-&lt;/div&gt;
+  &lt;hr class=&quot;simple-divider-blue&quot;&gt;
 
-(if: $roll &gt;= 12)[
-  &lt;div class=&quot;result-success&quot;&gt;
-    &#39;&#39;检定成功！&#39;&#39;&lt;br&gt;
-    你在集市的杂物堆里发现了一个钱袋。&lt;br&gt;
-    获得奖励：&lt;span class=&quot;reward-text&quot;&gt;10 银币&lt;/span&gt;
+  (set: $roll to (random: 1, 20))
+  &lt;div class=&quot;dice-box&quot;&gt;
+    [ 检定：中等 ]&lt;br&gt;
+    D20 投掷结果：&#39;&#39;$roll&#39;&#39;
+  &lt;/div&gt;
+
+  (if: $roll &gt;= 12)[
+    &lt;div class=&quot;narrative-block&quot;&gt;
+      &#39;&#39;检定成功！&#39;&#39;&lt;br&gt;
+      你在集市一角堆放的杂物堆里，意外发现了一个旧钱袋。
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;reward-box&quot;&gt;
+      获得奖励：10 银币
+    &lt;/div&gt;
     (set: $money to ($money + 10))
+  ]
+  (else:)[
+    &lt;div class=&quot;narrative-block&quot;&gt;
+      &#39;&#39;检定失败！&#39;&#39;&lt;br&gt;
+      除了几张被风吹动的破损旧报纸，这里似乎没有什么值得注意的。
+    &lt;/div&gt;
+  ]
+
+  &lt;hr class=&quot;simple-divider-blue&quot;&gt;
+
+  &lt;div class=&quot;choice-container&quot;&gt;
+    &lt;div class=&quot;choice-prompt&quot;&gt;接下来，你想怎么做？&lt;/div&gt;
+    [[▶ 调查见闻社-&gt;见闻社]]&lt;br&gt;
+    [[▶ 调查集群-&gt;集群]]&lt;br&gt;
+    [[▶ 调查结束-&gt;End]]
   &lt;/div&gt;
-]
-(else:)[
-  &lt;div class=&quot;result-fail&quot;&gt;
-    &#39;&#39;检定失败！&#39;&#39;&lt;br&gt;
-    这里似乎没有什么值得注意的。
-  &lt;/div&gt;
-]
-
-&lt;hr class=&quot;simple-divider&quot;&gt;
-
-&lt;div class=&quot;choice-prompt&quot;&gt;接下来，你想怎么做？&lt;/div&gt;
-
-&lt;div class=&quot;choice-list&quot;&gt;
-  &lt;div class=&quot;choice-item&quot;&gt;[[▶ 调查见闻社-&gt;3]]&lt;/div&gt;
-  &lt;div class=&quot;choice-item&quot;&gt;[[▶ 调查集群-&gt;4]]&lt;/div&gt;
-  &lt;div class=&quot;choice-item&quot;&gt;[[▶ 调查结束-&gt;End]]&lt;/div&gt;
-&lt;/div&gt;
 
 &lt;/div&gt;
 }
@@ -203,57 +209,56 @@ tw-sidebar { display: none; }</style><script role="script" id="twine-user-script
     text-align: center;
     max-width: 620px;
     margin: 0 auto;
-    padding-top: 8vh;
+    padding-top: 10vh;
 }
 
 .narrative-block {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    line-height: 1.8;
 }
 
-.simple-divider {
+/* 骰子盒：参考你提供的实线边框样式 */
+.dice-box {
+    border: 1px solid rgba(60, 60, 109, 0.3);
+    padding: 15px;
+    margin: 20px auto;
+    display: inline-block;
+    min-width: 200px;
+}
+
+/* 奖励框：用框圈起来的格式 */
+.reward-box {
+    border: 1px solid #3c3c6d;
+    display: inline-block;
+    padding: 8px 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.simple-divider-blue {
     border: 0;
     border-top: 1px solid rgba(60, 60, 109, 0.2);
     width: 60px;
-    margin: 30px auto;
+    margin: 40px auto;
 }
 
-/* 检定框装修 */
-.dice-box {
-    background: rgba(60, 60, 109, 0.05);
-    padding: 15px;
-    border-radius: 4px;
-    margin: 20px 0;
-    font-size: 0.95em;
-    border: 1px dashed rgba(60, 60, 109, 0.2);
+.choice-container {
+    line-height: 2.5;
 }
 
-.result-success {
-    color: #2d5a27; /* 成功使用深绿色感 */
-    margin: 20px 0;
-}
-
-.result-fail {
+.choice-prompt {
+    font-size: 0.9em;
     opacity: 0.7;
-    margin: 20px 0;
+    margin-bottom: 10px;
 }
 
-.reward-text {
-    border-bottom: 1.5px solid #3c3c6d;
+tw-link {
     font-weight: bold;
-}
-
-.choice-list {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    margin-top: 20px;
+    text-decoration: none !important;
 }
 &lt;/style&gt;
-
-
-
-
-</tw-passagedata><tw-passagedata pid="4" name="3" tags="" position="1850,875" size="100,100">(enchant:?page,(text-colour:#3c3c6d)+(bg:#dee0d7))
+</tw-passagedata><tw-passagedata pid="4" name="见闻社" tags="" position="1800,900" size="100,100">(enchant:?page,(text-colour:#3c3c6d)+(bg:#dee0d7))
 
 {
 &lt;div class=&quot;story-wrapper&quot;&gt;
@@ -263,7 +268,7 @@ tw-sidebar { display: none; }</style><script role="script" id="twine-user-script
 一楼的大厅摆放着许多书籍，看一下说不定会有意外收获。
 &lt;/div&gt;
 
-&lt;hr class=&quot;simple-divider&quot;&gt;
+&lt;hr class=&quot;simple-divider-blue&quot;&gt;
 
 (set: $roll to (random: 1, 20))
 &lt;div class=&quot;dice-box&quot;&gt;
@@ -272,79 +277,76 @@ tw-sidebar { display: none; }</style><script role="script" id="twine-user-script
 &lt;/div&gt;
 
 (if: $roll &gt;= 12)[
-  &lt;div class=&quot;result-success&quot;&gt;
+  &lt;div class=&quot;narrative-block&quot;&gt;
     &#39;&#39;检定成功！&#39;&#39;&lt;br&gt;
     你发现了一个档案，记载了因灾厄而生的怪物...&lt;br&gt;
     但还没看多少就被管理员收走了。
   &lt;/div&gt;
 ]
 (else:)[
-  &lt;div class=&quot;result-fail&quot;&gt;
+  &lt;div class=&quot;narrative-block&quot;&gt;
     &#39;&#39;检定失败！&#39;&#39;&lt;br&gt;
     这里似乎没有什么值得注意的。
   &lt;/div&gt;
 ]
 
-&lt;hr class=&quot;simple-divider&quot;&gt;
+&lt;hr class=&quot;simple-divider-blue&quot;&gt;
 
 &lt;div class=&quot;choice-prompt&quot;&gt;接下来，你想怎么做？&lt;/div&gt;
 
-&lt;div class=&quot;choice-list&quot;&gt;
-  &lt;div class=&quot;choice-item&quot;&gt;[[▶ 调查社区-&gt;2]]&lt;/div&gt;
-  &lt;div class=&quot;choice-item&quot;&gt;[[▶ 调查集群-&gt;4]]&lt;/div&gt;
-  &lt;div class=&quot;choice-item&quot;&gt;[[▶ 调查结束-&gt;End]]&lt;/div&gt;
+&lt;div class=&quot;choice-container&quot;&gt;
+  [[▶ 调查社区-&gt;社区1]]&lt;br&gt;
+  [[▶ 调查集群-&gt;集群]]&lt;br&gt;
+  [[▶ 调查结束-&gt;End]]
 &lt;/div&gt;
 
 &lt;/div&gt;
 }
 
 &lt;style&gt;
-/* 保持全局锁定的字号与行高 */
-
 .story-wrapper {
     text-align: center;
     max-width: 620px;
     margin: 0 auto;
-    padding-top: 8vh;
+    padding-top: 10vh;
 }
 
 .narrative-block {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    line-height: 1.8;
 }
 
-.simple-divider {
+/* 统一实线边框骰子盒 */
+.dice-box {
+    border: 1px solid rgba(60, 60, 109, 0.3);
+    padding: 15px;
+    margin: 20px auto;
+    display: inline-block;
+    min-width: 200px;
+}
+
+.simple-divider-blue {
     border: 0;
     border-top: 1px solid rgba(60, 60, 109, 0.2);
     width: 60px;
-    margin: 30px auto;
+    margin: 40px auto;
 }
 
-/* 检定框：虚线与淡色背景营造调查感 */
-.dice-box {
-    background: rgba(60, 60, 109, 0.05);
-    padding: 15px;
-    border-radius: 4px;
-    margin: 20px 0;
-    border: 1px dashed rgba(60, 60, 109, 0.2);
+.choice-container {
+    line-height: 2.5;
 }
 
-.result-success {
-    color: #2d5a27;
-    margin: 20px 0;
-}
-
-.result-fail {
+.choice-prompt {
+    font-size: 0.9em;
     opacity: 0.7;
-    margin: 20px 0;
+    margin-bottom: 10px;
 }
 
-.choice-list {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    margin-top: 20px;
+tw-link {
+    font-weight: bold;
+    text-decoration: none !important;
 }
-&lt;/style&gt;</tw-passagedata><tw-passagedata pid="5" name="4" tags="" position="2000,925" size="100,100">(enchant:?page,(text-colour:#3c3c6d)+(bg:#dee0d7))
+&lt;/style&gt;</tw-passagedata><tw-passagedata pid="5" name="集群" tags="" position="1925,750" size="100,100">(enchant:?page,(text-colour:#3c3c6d)+(bg:#dee0d7))
 
 {
 &lt;div class=&quot;story-wrapper&quot;&gt;
@@ -354,7 +356,7 @@ tw-sidebar { display: none; }</style><script role="script" id="twine-user-script
 集群的工坊似乎进行了重建，物资箱杂乱地堆放在室外，还在等待整理。你也想搭把手。
 &lt;/div&gt;
 
-&lt;hr class=&quot;simple-divider&quot;&gt;
+&lt;hr class=&quot;simple-divider-blue&quot;&gt;
 
 (set: $roll to (random: 1, 20))
 &lt;div class=&quot;dice-box&quot;&gt;
@@ -363,86 +365,88 @@ tw-sidebar { display: none; }</style><script role="script" id="twine-user-script
 &lt;/div&gt;
 
 (if: $roll &gt;= 12)[
-  &lt;div class=&quot;result-success&quot;&gt;
+  &lt;div class=&quot;narrative-block&quot;&gt;
     &#39;&#39;检定成功！&#39;&#39;&lt;br&gt;
     你有条不紊地整理好了大部分箱子。&lt;br&gt;
-    为表感谢，调供员送你一份奖品。&lt;br&gt;
-    获得：&lt;span class=&quot;reward-text&quot;&gt;不死图腾&lt;/span&gt;
-    (set: $hasTotem to true)
+    为表感谢，调供员送你一份奖品。
   &lt;/div&gt;
+
+  &lt;div class=&quot;reward-box&quot;&gt;
+    获得：不死图腾
+  &lt;/div&gt;
+  (set: $hasTotem to true)
 ]
 (else:)[
-  &lt;div class=&quot;result-fail&quot;&gt;
+  &lt;div class=&quot;narrative-block&quot;&gt;
     &#39;&#39;检定失败！&#39;&#39;&lt;br&gt;
     你实在是不擅长整理。
   &lt;/div&gt;
 ]
 
-&lt;hr class=&quot;simple-divider&quot;&gt;
+&lt;hr class=&quot;simple-divider-blue&quot;&gt;
 
-&lt;div class=&quot;choice-prompt&quot;&gt;接下来，你想怎么做？&lt;/div&gt;
-
-&lt;div class=&quot;choice-list&quot;&gt;
-  &lt;div class=&quot;choice-item&quot;&gt;[[▶ 调查社区-&gt;2]]&lt;/div&gt;
-  &lt;div class=&quot;choice-item&quot;&gt;[[▶ 调查见闻社-&gt;3]]&lt;/div&gt;
-  &lt;div class=&quot;choice-item&quot;&gt;[[▶ 调查结束-&gt;End]]&lt;/div&gt;
+&lt;div class=&quot;choice-container&quot;&gt;
+  &lt;div class=&quot;choice-prompt&quot;&gt;接下来，你想怎么做？&lt;/div&gt;
+  [[▶ 调查社区-&gt;社区1]]&lt;br&gt;
+  [[▶ 调查见闻社-&gt;见闻社]]&lt;br&gt;
+  [[▶ 调查结束-&gt;End]]
 &lt;/div&gt;
 
 &lt;/div&gt;
 }
 
 &lt;style&gt;
-/* 保持全局锁定的字号与行高 */
-
 .story-wrapper {
     text-align: center;
     max-width: 620px;
     margin: 0 auto;
-    padding-top: 8vh;
+    padding-top: 10vh;
 }
 
 .narrative-block {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    line-height: 1.8;
 }
 
-.simple-divider {
+/* 骰子盒样式 */
+.dice-box {
+    border: 1px solid rgba(60, 60, 109, 0.3);
+    padding: 15px;
+    margin: 20px auto;
+    display: inline-block;
+    min-width: 200px;
+}
+
+/* 获得物品/奖励框样式 */
+.reward-box {
+    border: 1px solid #3c3c6d;
+    display: inline-block;
+    padding: 8px 25px;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.simple-divider-blue {
     border: 0;
     border-top: 1px solid rgba(60, 60, 109, 0.2);
     width: 60px;
-    margin: 30px auto;
+    margin: 40px auto;
 }
 
-/* 检定框 */
-.dice-box {
-    background: rgba(60, 60, 109, 0.05);
-    padding: 15px;
-    border-radius: 4px;
-    margin: 20px 0;
-    border: 1px dashed rgba(60, 60, 109, 0.2);
+.choice-container {
+    line-height: 2.5;
 }
 
-.result-success {
-    color: #2d5a27;
-    margin: 20px 0;
-}
-
-.result-fail {
+.choice-prompt {
+    font-size: 0.9em;
     opacity: 0.7;
-    margin: 20px 0;
+    margin-bottom: 10px;
 }
 
-/* 奖励文字高亮 */
-.reward-text {
-    border-bottom: 1.5px solid #3c3c6d;
+tw-link {
     font-weight: bold;
-    color: #a67c00; /* 给图腾一个特殊的暗金色 */
-}
-
-.choice-list {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    margin-top: 20px;
+    text-decoration: none !important;
 }
 &lt;/style&gt;</tw-passagedata><tw-passagedata pid="6" name="首页" tags="" position="1450,25" size="100,100">(enchant:?page,(text-colour:#eeedd7)+(bg:(gradient: 272, 0,#1d202f,0.2602,#385753,0.4787,#476b6c,0.6743,#324257,0.8394,#465f67,1,#14333e)))
 
@@ -489,7 +493,7 @@ tw-sidebar { display: none; }</style><script role="script" id="twine-user-script
 .launch-area {
     margin-top: 10vh;
 }
-&lt;/style&gt;</tw-passagedata><tw-passagedata pid="7" name="▶ 你是谁？" tags="" position="1150,800" size="100,100">(enchant:?page,(text-colour:#eeedd7)+(bg:#3f4f5a))
+&lt;/style&gt;</tw-passagedata><tw-passagedata pid="7" name="▶ 你是谁？" tags="" position="1200,425" size="100,100">(enchant:?page,(text-colour:#eeedd7)+(bg:#3f4f5a))
 
 {
 &lt;div class=&quot;story-wrapper&quot;&gt;
@@ -539,7 +543,7 @@ tw-sidebar { display: none; }</style><script role="script" id="twine-user-script
 .choice-container {
     margin-top: 30px;
 }
-&lt;/style&gt;</tw-passagedata><tw-passagedata pid="8" name="▶ 什么是残律纪？" tags="" position="1275,800" size="100,100">(enchant:?page,(text-colour:#3c3c6d)+(bg:#dee0d7))
+&lt;/style&gt;</tw-passagedata><tw-passagedata pid="8" name="▶ 什么是残律纪？" tags="" position="1200,550" size="100,100">(enchant:?page,(text-colour:#3c3c6d)+(bg:#dee0d7))
 
 {
 &lt;div class=&quot;history-wrapper&quot;&gt;
@@ -604,7 +608,7 @@ tw-sidebar { display: none; }</style><script role="script" id="twine-user-script
 .nav-button {
     margin-top: 60px;
 }
-&lt;/style&gt;</tw-passagedata><tw-passagedata pid="9" name="▶ 什么是中立之域？" tags="" position="1400,800" size="100,100">(enchant:?page,(text-colour:#3c3c6d)+(bg:#dee0d7))
+&lt;/style&gt;</tw-passagedata><tw-passagedata pid="9" name="▶ 什么是中立之域？" tags="" position="1200,675" size="100,100">(enchant:?page,(text-colour:#3c3c6d)+(bg:#dee0d7))
 
 {
 &lt;div class=&quot;story-wrapper&quot;&gt;
@@ -655,38 +659,80 @@ tw-sidebar { display: none; }</style><script role="script" id="twine-user-script
 .nav-button {
     margin-top: 50px;
 }
-&lt;/style&gt;</tw-passagedata><tw-passagedata pid="10" name="▶ 什么是恒醒期？" tags="" position="1525,800" size="100,100">(enchant:?page,(text-colour:#3c3c6d)+(bg:#dee0d7))
+&lt;/style&gt;</tw-passagedata><tw-passagedata pid="10" name="▶ 什么是恒醒期？" tags="" position="1200,800" size="100,100">(enchant:?page,(text-colour:#3c3c6d)+(bg:#dee0d7))
 
 {
 &lt;div class=&quot;story-wrapper&quot;&gt;
 
-&lt;div class=&quot;narrative-block&quot;&gt;
-&#39;&#39;恒醒期&#39;&#39;，我们目前所处的时间，世界的发展期，没有生与死的概念。&lt;br&gt;&lt;br&gt;
-与之相反的则是 &#39;&#39;永寐期&#39;&#39;。所有人将陷入沉睡，直到下一次恒醒期再次苏醒。在此期间的死亡是真实的。
-&lt;/div&gt;
+  &lt;div class=&quot;concept-section&quot;&gt;
+    &lt;div class=&quot;narrative-block&quot;&gt;
+      &lt;strong&gt;恒醒期&lt;/strong&gt;&lt;br&gt;
+      我们目前所处的时间，世界的发展期，没有生与死的概念。
+    &lt;/div&gt;
 
-&lt;hr class=&quot;simple-divider&quot;&gt;
+    &lt;div class=&quot;concept-divider&quot;&gt;vs&lt;/div&gt;
 
-&lt;div class=&quot;nav-button&quot;&gt;
-[[▶ 继续-&gt;1]]
-&lt;/div&gt;
+    &lt;div class=&quot;narrative-block&quot;&gt;
+      &lt;strong&gt;永寐期&lt;/strong&gt;&lt;br&gt;
+      所有人将陷入沉睡，直到下一次恒醒期再次苏醒。&lt;br&gt;
+      &lt;span class=&quot;warning-text&quot;&gt;唯有永寐期中的死亡，才是真正的终结。&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;era-block&quot;&gt;
+    我们目前处于&lt;strong&gt;残律纪&lt;/strong&gt;的第三个恒醒期。&lt;br&gt;
+    在前两次恒醒期中，我们将重心放在重建上，即便永寐期造成了一些破坏，也能迅速修复完毕。
+  &lt;/div&gt;
+
+  &lt;hr class=&quot;simple-divider&quot;&gt;
+
+  &lt;div class=&quot;nav-button&quot;&gt;
+    [[▶ 继续-&gt;1]]
+  &lt;/div&gt;
 
 &lt;/div&gt;
 }
 
 &lt;style&gt;
-/* 仅保留核心布局逻辑，字号与行高由全局 Stylesheet 锁定 */
-
 .story-wrapper {
     text-align: center;
     max-width: 620px;
     margin: 0 auto;
-    padding-top: 15vh; /* 居中偏上，保持阅读舒适度 */
+    padding-top: 12vh;
+}
+
+.concept-section {
+    margin-bottom: 50px;
 }
 
 .narrative-block {
-    margin-bottom: 30px;
-    color: #3c3c6d;
+    margin-bottom: 25px;
+    line-height: 1.8;
+}
+
+/* 概念中间的装饰文字 */
+.concept-divider {
+    font-size: 0.8em;
+    opacity: 0.4;
+    letter-spacing: 4px;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+/* 强调永寐期的危险性 */
+.warning-text {
+    font-size: 0.95em;
+    opacity: 0.8;
+    font-style: italic;
+}
+
+/* 纪元背景区块 */
+.era-block {
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(60, 60, 109, 0.03);
+    border-radius: 2px;
+    line-height: 1.8;
 }
 
 .simple-divider {
@@ -699,42 +745,79 @@ tw-sidebar { display: none; }</style><script role="script" id="twine-user-script
 .nav-button {
     margin-top: 30px;
 }
-&lt;/style&gt;</tw-passagedata><tw-passagedata pid="11" name="▶ 什么是世界合并？" tags="" position="1650,800" size="100,100">(enchant:?page,(text-colour:#eeedd7)+(bg:#3f4f5a))
+
+tw-link {
+    font-weight: bold;
+    text-decoration: none !important;
+}
+&lt;/style&gt;</tw-passagedata><tw-passagedata pid="11" name="▶ 什么是世界合并？" tags="" position="1200,925" size="100,100">(enchant:?page,(text-colour:#eeedd7)+(bg:#3f4f5a))
 
 {
 &lt;div class=&quot;story-wrapper&quot;&gt;
 
-&lt;div class=&quot;narrative-block&quot;&gt;
-..你是不是没仔细看残律纪的介绍？
-&lt;/div&gt;
+  &lt;div class=&quot;tsukkomi-block&quot;&gt;
+    ..你是不是没仔细看残律纪的介绍？
+  &lt;/div&gt;
 
-&lt;hr class=&quot;simple-divider&quot;&gt;
+  &lt;div class=&quot;explanation-box&quot;&gt;
+    &lt;div class=&quot;narrative-block&quot;&gt;
+      总而言之，三个世界之所以合并为如今的世界，是因为&lt;strong&gt;第二次灾厄&lt;/strong&gt;的爆发。而我们的目标，就是寻找灾厄的真相。
+    &lt;/div&gt;
 
-&lt;div class=&quot;nav-button&quot;&gt;
-[[▶ 继续-&gt;1]]
-&lt;/div&gt;
+    &lt;div class=&quot;narrative-block-small&quot;&gt;
+      顺带一提，合并后的世界更像是一个&lt;strong&gt;重置失败&lt;/strong&gt;的产物——它保留了一个正常世界应有的自然状态，同时也产生了许多像&lt;strong&gt;折声点&lt;/strong&gt;这样的异常区域……
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;hr class=&quot;simple-divider-light&quot;&gt;
+
+  &lt;div class=&quot;nav-button&quot;&gt;
+    [[▶ 继续-&gt;1]]
+  &lt;/div&gt;
 
 &lt;/div&gt;
 }
 
 &lt;style&gt;
-/* 仅保留布局逻辑，字号与行高完全服从全局 Stylesheet */
-
 .story-wrapper {
     text-align: center;
     max-width: 620px;
     margin: 0 auto;
-    padding-top: 25vh; /* 增加顶部留白，让文字处于画面视觉中心 */
+    padding-top: 15vh;
+}
+
+/* 吐槽句：增加字间距和底部边距 */
+.tsukkomi-block {
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+/* 解释说明框：带有微弱虚线边框，增加“补充说明”的质感 */
+.explanation-box {
+    text-align: left;
+    background: rgba(238, 237, 215, 0.03);
+    border: 1px dashed rgba(238, 237, 215, 0.2);
+    padding: 30px;
+    margin-bottom: 40px;
 }
 
 .narrative-block {
-    margin-bottom: 20px;
-    letter-spacing: 1.5px; /* 稍微增加字间距，显得语气更悠长 */
+    margin-bottom: 25px;
+    line-height: 1.8;
 }
 
-.simple-divider {
+/* 次要说明：字号稍小 */
+.narrative-block-small {
+    font-size: 0.95em;
+    opacity: 0.85;
+    line-height: 1.7;
+}
+
+.simple-divider-light {
     border: 0;
-    border-top: 1px solid rgba(238, 237, 215, 0.3);
+    border-top: 1px solid rgba(238, 237, 215, 0.2);
     width: 60px;
     margin: 40px auto;
 }
@@ -742,7 +825,11 @@ tw-sidebar { display: none; }</style><script role="script" id="twine-user-script
 .nav-button {
     margin-top: 20px;
 }
-&lt;/style&gt;</tw-passagedata><tw-passagedata pid="12" name="▶ 没事，我准备好了" tags="" position="1775,675" size="100,100">(enchant:?page,(text-colour:#3c3c6d)+(bg:#dee0d7))
+
+tw-link {
+    font-weight: bold;
+}
+&lt;/style&gt;</tw-passagedata><tw-passagedata pid="12" name="▶ 没事，我准备好了" tags="" position="1600,575" size="100,100">(enchant:?page,(text-colour:#3c3c6d)+(bg:#dee0d7))
 
 {
 &lt;div class=&quot;story-wrapper&quot;&gt;
@@ -754,9 +841,9 @@ tw-sidebar { display: none; }</style><script role="script" id="twine-user-script
 &lt;hr class=&quot;simple-divider&quot;&gt;
 
 &lt;div class=&quot;choice-list&quot;&gt;
-  &lt;div class=&quot;choice-item&quot;&gt;[[▶ 调查社区-&gt;2]]&lt;/div&gt;
-  &lt;div class=&quot;choice-item&quot;&gt;[[▶ 调查见闻社-&gt;3]]&lt;/div&gt;
-  &lt;div class=&quot;choice-item&quot;&gt;[[▶ 调查集群-&gt;4]]&lt;/div&gt;
+  &lt;div class=&quot;choice-item&quot;&gt;[[▶ 调查社区-&gt;社区1]]&lt;/div&gt;
+  &lt;div class=&quot;choice-item&quot;&gt;[[▶ 调查见闻社-&gt;见闻社]]&lt;/div&gt;
+  &lt;div class=&quot;choice-item&quot;&gt;[[▶ 调查集群-&gt;集群]]&lt;/div&gt;
 &lt;/div&gt;
 
 &lt;/div&gt;
@@ -795,7 +882,7 @@ tw-sidebar { display: none; }</style><script role="script" id="twine-user-script
 }
 &lt;/style&gt;
 
-</tw-passagedata><tw-passagedata pid="13" name="End" tags="" position="1900,1200" size="100,100">(enchant:?page,(text-colour:#eeedd7)+(bg:#3f4f5a))
+</tw-passagedata><tw-passagedata pid="13" name="End" tags="" position="1925,1200" size="100,100">(enchant:?page,(text-colour:#eeedd7)+(bg:#3f4f5a))
 
 {
 &lt;div class=&quot;story-wrapper&quot;&gt;
@@ -957,6 +1044,581 @@ input {
 
 .launch-area {
     margin-top: 40px;
+}
+&lt;/style&gt;</tw-passagedata><tw-passagedata pid="16" name="社区1" tags="" position="1650,750" size="100,100">(enchant:?page, (text-colour: #3c3c6d) + (bg: #dee0d7))
+
+{
+&lt;div class=&quot;story-wrapper&quot;&gt;
+
+  &lt;div class=&quot;narrative-block&quot;&gt;
+    你来到了&lt;strong&gt;中立之域&lt;/strong&gt;的出生点。
+  &lt;/div&gt;
+
+  &lt;div class=&quot;narrative-block&quot;&gt;
+    这里是一座由巨大树桩改造而成的建筑，内部融合了仓库的实用与休憩之处的舒适。粗粝的木质内壁上刻满了斑驳的纹路，地板则是坚实的石质，表面被打磨得平整光洁，拼接处严丝合缝。
+  &lt;/div&gt;
+
+  &lt;div class=&quot;beacon-block&quot;&gt;
+    一楼中央放置了一个&lt;strong&gt;信标&lt;/strong&gt;，一道笔直的光线从中升起，穿过外围的玻璃时折射出不同的色彩。光脉如呼吸般缓缓律动，仿佛在为踏入此地的旅人锚定方向。
+  &lt;/div&gt;
+
+  &lt;hr class=&quot;simple-divider&quot;&gt;
+
+  &lt;div class=&quot;choice-container&quot;&gt;
+    &lt;div class=&quot;choice-prompt&quot;&gt;接下来，你想怎么做？&lt;/div&gt;
+
+    &lt;div class=&quot;choice-list&quot;&gt;
+      &lt;div class=&quot;choice-item&quot;&gt;[[▶ 调查仓库-&gt;仓库]]&lt;/div&gt;
+      &lt;div class=&quot;choice-item&quot;&gt;[[▶ 调查书架-&gt;书架]]&lt;/div&gt;
+      &lt;div class=&quot;choice-item&quot;&gt;[[▶ 前往集市-&gt;社区2]]&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+}
+
+&lt;style&gt;
+.story-wrapper {
+    text-align: center;
+    max-width: 620px;
+    margin: 0 auto;
+    padding-top: 8vh;
+}
+
+.narrative-block {
+    margin-bottom: 25px;
+    line-height: 1.8;
+}
+
+/* 信标描述区块：增加一点空灵感 */
+.beacon-block {
+    margin: 35px 0;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    line-height: 1.8;
+    box-shadow: 0 4px 15px rgba(60, 60, 109, 0.05);
+}
+
+.simple-divider {
+    border: 0;
+    border-top: 1px solid rgba(60, 60, 109, 0.2);
+    width: 60px;
+    margin: 40px auto;
+}
+
+.choice-container {
+    margin-top: 30px;
+}
+
+.choice-prompt {
+    font-size: 0.9em;
+    opacity: 0.7;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.choice-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.choice-item {
+    transition: transform 0.2s ease;
+}
+
+.choice-item:hover {
+    transform: translateX(5px);
+}
+
+tw-link {
+    font-weight: bold;
+    text-decoration: none !important;
+}
+&lt;/style&gt;
+</tw-passagedata><tw-passagedata pid="17" name="仓库" tags="" position="1450,1075" size="100,100">(enchant:?page, (text-colour: #3c3c6d) + (bg: #dee0d7))
+
+{
+&lt;div class=&quot;story-wrapper&quot;&gt;
+
+  &lt;div class=&quot;info-notice&quot;&gt;
+    &lt;strong&gt;公告栏：&lt;/strong&gt;&lt;br&gt;
+    “所有新人可在仓库领取初始物资。”
+  &lt;/div&gt;
+
+  &lt;div class=&quot;narrative-block&quot;&gt;
+    仓库在楼梯后方。这里是供所有人使用的公共空间，空气中弥漫着淡淡的煤烟味与木材的干燥气息。
+  &lt;/div&gt;
+
+  &lt;div class=&quot;facility-grid&quot;&gt;
+    &lt;div class=&quot;facility-item&quot;&gt;
+      &lt;span class=&quot;facility-label&quot;&gt;物资区&lt;/span&gt;&lt;br&gt;
+      最里侧靠墙摆着一排箱子，初始物资就放在里面。
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;facility-item&quot;&gt;
+      &lt;span class=&quot;facility-label&quot;&gt;精炼区&lt;/span&gt;&lt;br&gt;
+      中间是一排熔炉，煤炭块整整齐齐码在下面的柜子里。
+    &lt;/div&gt;
+
+    &lt;div class=&quot;facility-item highlight&quot;&gt;
+      &lt;span class=&quot;facility-label&quot;&gt;工坊区&lt;/span&gt;&lt;br&gt;
+      北面靠墙则是一排时装工坊的设备，你可以把自己喜欢的模型下载下来使用。
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;hr class=&quot;simple-divider&quot;&gt;
+
+  &lt;div class=&quot;choice-container&quot;&gt;
+    &lt;div class=&quot;choice-list&quot;&gt;
+      &lt;div class=&quot;choice-item&quot;&gt;[[▶ 返回-&gt;社区1]]&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+}
+
+&lt;style&gt;
+.story-wrapper {
+    text-align: center;
+    max-width: 620px;
+    margin: 0 auto;
+    padding-top: 10vh;
+}
+
+/* 公告栏：模拟贴在墙上的小纸条感 */
+.info-notice {
+    background: rgba(60, 60, 109, 0.08);
+    border-left: 4px solid #3c3c6d;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 0.95em;
+}
+
+.narrative-block {
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+
+/* 设施布局：增强空间的功能感 */
+.facility-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.facility-item {
+    padding: 15px;
+    border: 1px solid rgba(60, 60, 109, 0.1);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+}
+
+.facility-label {
+    font-weight: bold;
+    font-size: 0.85em;
+    opacity: 0.7;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* 强调工坊区 */
+.facility-item.highlight {
+    border: 1px dashed rgba(60, 60, 109, 0.4);
+}
+
+.simple-divider {
+    border: 0;
+    border-top: 1px solid rgba(60, 60, 109, 0.2);
+    width: 60px;
+    margin: 40px auto;
+}
+
+.choice-container {
+    margin-top: 20px;
+}
+
+tw-link {
+    font-weight: bold;
+    text-decoration: none !important;
+}
+&lt;/style&gt;</tw-passagedata><tw-passagedata pid="18" name="书架" tags="" position="1450,700" size="100,100">(enchant:?page, (text-colour: #3c3c6d) + (bg: #dee0d7))
+
+{
+&lt;div class=&quot;story-wrapper&quot;&gt;
+
+  &lt;div class=&quot;narrative-block&quot;&gt;
+    楼梯旁边立着一个书架，木质框架与周围的树桩内壁融为一体。
+  &lt;/div&gt;
+
+  &lt;div class=&quot;bookshelf-display&quot;&gt;
+    &lt;div class=&quot;shelf-row&quot;&gt;
+      &lt;span class=&quot;book-spine&quot;&gt;管理日志&lt;/span&gt;
+      &lt;span class=&quot;book-spine&quot;&gt;薄暮之歌·特别增刊&lt;/span&gt;
+      &lt;span class=&quot;book-spine rare&quot;&gt;诗歌精选集&lt;/span&gt;
+      &lt;span class=&quot;book-spine&quot;&gt;忒修斯之船&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;narrative-block&quot;&gt;
+    你粗略扫了一眼，上层摆着几本书和报纸，中间夹着一本薄薄的&lt;strong&gt;诗歌精选集&lt;/strong&gt;，书脊上的烫金字已经磨得模糊不清。
+  &lt;/div&gt;
+
+  &lt;div class=&quot;interaction-prompt&quot;&gt;
+    要拿起来看看吗？
+  &lt;/div&gt;
+
+  &lt;hr class=&quot;simple-divider&quot;&gt;
+
+  &lt;div class=&quot;choice-container&quot;&gt;
+    &lt;div class=&quot;choice-list&quot;&gt;
+      &lt;div class=&quot;choice-item&quot;&gt;[[▶ 阅读内容-&gt;书架2]]&lt;/div&gt;
+      &lt;div class=&quot;choice-item secondary&quot;&gt;[[▶ 不太想读！-&gt;社区1]]&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+}
+
+&lt;style&gt;
+.story-wrapper {
+    text-align: center;
+    max-width: 620px;
+    margin: 0 auto;
+    padding-top: 10vh;
+}
+
+.narrative-block {
+    margin-bottom: 25px;
+    line-height: 1.8;
+}
+
+/* 书架模拟 */
+.bookshelf-display {
+    margin: 30px auto;
+    padding: 20px 10px;
+    background: rgba(60, 60, 109, 0.05);
+    border-bottom: 6px solid rgba(60, 60, 109, 0.15); /* 加厚底座感 */
+    max-width: 450px;
+}
+
+.shelf-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* 让书本底部对齐 */
+    gap: 8px;
+}
+
+.book-spine {
+    display: inline-block;
+    padding: 12px 6px;
+    border: 1px solid rgba(60, 60, 109, 0.3);
+    font-size: 0.85em;
+    writing-mode: vertical-rl;
+    background: rgba(255, 255, 255, 0.4);
+    opacity: 0.7;
+    min-height: 80px;
+}
+
+/* 突出显示被夹在中间的诗选集 */
+.book-spine.rare {
+    border-color: #a67c00;
+    color: #a67c00;
+    background: rgba(255, 255, 255, 0.8);
+    opacity: 1;
+    min-height: 70px; /* 稍微矮一点，符合“薄薄一本”的描述 */
+    box-shadow: 0 0 8px rgba(166, 124, 0, 0.2);
+}
+
+.interaction-prompt {
+    font-style: italic;
+    margin-top: 30px;
+    opacity: 0.9;
+}
+
+.simple-divider {
+    border: 0;
+    border-top: 1px solid rgba(60, 60, 109, 0.2);
+    width: 60px;
+    margin: 40px auto;
+}
+
+.choice-container {
+    margin-top: 20px;
+}
+
+.choice-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+.choice-item.secondary {
+    font-size: 0.9em;
+    opacity: 0.6;
+}
+
+tw-link {
+    font-weight: bold;
+    text-decoration: none !important;
+}
+&lt;/style&gt;</tw-passagedata><tw-passagedata pid="19" name="书架2" tags="" position="1450,825" size="100,100">(enchant:?page, (text-colour: #3c3c6d) + (bg: #dee0d7))
+
+{
+&lt;div class=&quot;story-wrapper&quot;&gt;
+
+  &lt;div class=&quot;narrative-block ink-smudge&quot;&gt;
+    你打开扉页，一整页被墨水浸透，墨迹洇开，蔓延到后面几页的边缘。&lt;br&gt;
+    接着往下翻，终于找到一些还能辨认的字迹。
+  &lt;/div&gt;
+
+  &lt;div class=&quot;poetry-container&quot;&gt;
+    
+    &lt;div class=&quot;poem-card style-industrial&quot;&gt;
+      &lt;div class=&quot;poem-body&quot;&gt;
+        我们挖出大地深处的石与铁，将它们喂给永不满足的炉火。&lt;br&gt;
+        烟尘遮蔽了天空的颜色，河水变成我们认不出的模样。&lt;br&gt;
+        机器轰鸣，日夜不休，我们弯着腰，从清晨到日暮。&lt;br&gt;
+        有人说这是进步，这是未来，可我们的孩子，还认得什么是光吗？&lt;br&gt;
+        我们疲倦，却不敢停下，我们看见，却不敢开口。&lt;br&gt;
+        大地在脚下无声地哭泣，而我们，是唯一听见的人。
+      &lt;/div&gt;
+      &lt;div class=&quot;poem-author&quot;&gt;——《疲倦的工人》&lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;poem-card style-desert&quot;&gt;
+      &lt;div class=&quot;poem-body&quot;&gt;
+        我遇见一位来自古国的旅人，他说：两条巨大的石腿，无躯干，立在沙漠中。&lt;br&gt;
+        近旁，半埋沙中，是一张破碎的面容，那皱眉，那枯唇，那冷酷威严的嘲讽，&lt;br&gt;
+        都刻着雕刻师读懂了这人的心，而这表情仍存，镌刻在无生命的石上。&lt;br&gt;
+        底座上，这些字迹依稀可见：&lt;br&gt;
+        “吾乃奥西曼迭斯，万王之王：看我的功业，强者啊，绝望吧！”&lt;br&gt;
+        除此之外，再无余物。那巨大废墟的周遭，无垠而荒凉，孤寂的平沙，向远方绵延。
+      &lt;/div&gt;
+      &lt;div class=&quot;poem-author&quot;&gt;——《奥西曼迭斯》&lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;poem-card style-divine&quot;&gt;
+      &lt;div class=&quot;poem-body&quot;&gt;
+        祂曾执掌创造的手，如今指向生灵，在血肉之上写下新的律法。&lt;br&gt;
+        “我是赋予者，也是取回者，”&lt;br&gt;
+        祂说，“这躯壳是我的工坊，这灵魂是我的实验。”&lt;br&gt;
+        晨星在远方坠落，而祂凝视手中跳动的心脏，不发一言。
+      &lt;/div&gt;
+      &lt;div class=&quot;poem-author&quot;&gt;——《造物主》&lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;poem-card style-chaos&quot;&gt;
+      &lt;div class=&quot;poem-body&quot;&gt;
+        旋转又旋转，在渐阔的旋涡中，猎鹰听不见放鹰人的呼唤；&lt;br&gt;
+        万物崩散，中心已难维系，纯粹的混乱涌向世界，&lt;br&gt;
+        血色潮汐漫卷，处处无邪的仪式被淹没；&lt;br&gt;
+        最优秀者已失信念，最卑劣者却燃着狂热的激情。&lt;br&gt;
+        某种启示即将到来？某种启示即将到来！第二次降临！&lt;br&gt;
+        世界之灵，旋出黑暗，沙尘中，一具人狮的形体，空洞如太阳的眼神，&lt;br&gt;
+        正迟缓地移动，身后是鸟群愤怒的撕扯。&lt;br&gt;
+        黑暗再次降临，两千年的僵眠，被摇成摇篮般的梦境，&lt;br&gt;
+        何等粗野的野兽，它的时辰终于到来，正迟缓地走向伯利恒，等待诞生？
+      &lt;/div&gt;
+      &lt;div class=&quot;poem-author&quot;&gt;——《第二次降临》&lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;poem-card style-poison&quot;&gt;
+      &lt;div class=&quot;poem-body&quot;&gt;
+        我对朋友表达愤怒，愤怒止息。我对敌人隐忍愤怒，愤怒生长。&lt;br&gt;
+        我日夜用水浇灌它，用泪与谎言滋养。&lt;br&gt;
+        阳光之下它长成毒树，果实金黄，敌人欣然采撷，&lt;br&gt;
+        清晨他倒在我的树下，苍白如霜。
+      &lt;/div&gt;
+      &lt;div class=&quot;poem-author&quot;&gt;——《毒药树》&lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;poem-card style-void&quot;&gt;
+      &lt;div class=&quot;poem-body&quot;&gt;
+        有一种静默，在海洋与陆地之间。&lt;br&gt;
+        有一种静默，在风暴与呼吸之间。&lt;br&gt;
+        我梦见，我站立在深渊之上，听见万物之灵说：&lt;br&gt;
+        “我是静默，是永恒，是虚无。”
+      &lt;/div&gt;
+      &lt;div class=&quot;poem-author&quot;&gt;——《静默》&lt;/div&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+
+  &lt;div class=&quot;narrative-block end-note&quot;&gt;
+    再往后翻，只剩撕裂的残页，字句断在纸的缺口处，像没说完的话。
+  &lt;/div&gt;
+
+  &lt;hr class=&quot;simple-divider&quot;&gt;
+
+  &lt;div class=&quot;choice-container&quot;&gt;
+    &lt;div class=&quot;choice-list&quot;&gt;
+      &lt;div class=&quot;choice-item&quot;&gt;[[▶ 继续-&gt;书架3]]&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+}
+
+&lt;style&gt;
+.story-wrapper {
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 8vh 20px;
+}
+
+.narrative-block {
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+
+/* 顶部墨渍意象 */
+.ink-smudge {
+    border-top: 3px solid #3c3c6d;
+    padding-top: 20px;
+}
+
+/* 诗歌容器布局 */
+.poetry-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 50px 0;
+}
+
+.poem-card {
+    background: rgba(255, 255, 255, 0.4);
+    padding: 25px;
+    text-align: left;
+    border-radius: 2px;
+    box-shadow: 2px 2px 10px rgba(60, 60, 109, 0.05);
+    position: relative;
+}
+
+.poem-body {
+    line-height: 2;
+    font-size: 0.95em;
+    margin-bottom: 15px;
+}
+
+.poem-author {
+    text-align: right;
+    font-weight: bold;
+    font-size: 0.85em;
+    opacity: 0.7;
+}
+
+/* 不同诗篇的侧边风格线 */
+.style-industrial { border-left: 5px solid #5a5a5a; } /* 工业灰 */
+.style-desert     { border-left: 5px solid #c2b280; } /* 沙漠黄 */
+.style-divine     { border-left: 5px solid #3c3c6d; } /* 见闻蓝 */
+.style-chaos      { border-left: 5px solid #8b0000; } /* 血色红 */
+.style-poison     { border-left: 5px solid #2d5a27; } /* 毒素绿 */
+.style-void       { border-left: 5px solid #7a4f91; } /* 虚无紫 */
+
+.end-note {
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.simple-divider {
+    border: 0;
+    border-top: 1px solid rgba(60, 60, 109, 0.2);
+    width: 60px;
+    margin: 40px auto;
+}
+
+tw-link {
+    font-weight: bold;
+    text-decoration: none !important;
+}
+&lt;/style&gt;
+</tw-passagedata><tw-passagedata pid="20" name="书架3" tags="" position="1450,950" size="100,100">(enchant:?page, (text-colour: #3c3c6d) + (bg: #dee0d7))
+
+{
+&lt;div class=&quot;story-wrapper&quot;&gt;
+
+  &lt;div class=&quot;book-close-icon&quot;&gt;
+    &lt;span class=&quot;icon-symbol&quot;&gt;📖&lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;narrative-block&quot;&gt;
+    你看完只觉莫名其妙。
+  &lt;/div&gt;
+
+  &lt;div class=&quot;narrative-block shadow-text&quot;&gt;
+    这些诗歌的内容消极又悲观，仿佛在诉说什么。&lt;br&gt;
+    但那与你并无关联。
+  &lt;/div&gt;
+
+  &lt;div class=&quot;narrative-block&quot;&gt;
+    你懒得深想，随手将它插回了书架的原位。
+  &lt;/div&gt;
+
+  &lt;hr class=&quot;simple-divider&quot;&gt;
+
+  &lt;div class=&quot;choice-container&quot;&gt;
+    &lt;div class=&quot;choice-list&quot;&gt;
+      &lt;div class=&quot;choice-item&quot;&gt;[[▶ 返回-&gt;社区1]]&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+}
+
+&lt;style&gt;
+.story-wrapper {
+    text-align: center;
+    max-width: 620px;
+    margin: 0 auto;
+    padding-top: 15vh;
+}
+
+/* 顶部图标：暗示动作结束 */
+.book-close-icon {
+    font-size: 2em;
+    margin-bottom: 30px;
+    opacity: 0.6;
+}
+
+.narrative-block {
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+/* 稍微模糊处理的文字，暗示“不再深究”的心理状态 */
+.shadow-text {
+    font-size: 0.95em;
+    opacity: 0.7;
+    font-style: italic;
+}
+
+.simple-divider {
+    border: 0;
+    border-top: 1px solid rgba(60, 60, 109, 0.2);
+    width: 60px;
+    margin: 40px auto;
+}
+
+.choice-container {
+    margin-top: 20px;
+}
+
+.choice-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+tw-link {
+    font-weight: bold;
+    text-decoration: none !important;
 }
 &lt;/style&gt;</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
