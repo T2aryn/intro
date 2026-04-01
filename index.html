@@ -180,8 +180,8 @@ tw-sidebar { display: none; }</style><script role="script" id="twine-user-script
       你在集市一角堆放的杂物堆里，意外发现了一个旧钱袋。
     &lt;/div&gt;
     
-    &lt;div class=&quot;reward-box&quot;&gt;
-      获得奖励：10 银币
+    &lt;div class=&quot;item-get&quot;&gt;
+      &#39;&#39;获得奖励：10 银币&#39;&#39;
     &lt;/div&gt;
     (set: $money to ($money + 10))
   ]
@@ -217,7 +217,7 @@ tw-sidebar { display: none; }</style><script role="script" id="twine-user-script
     line-height: 1.8;
 }
 
-/* 骰子盒：参考你提供的实线边框样式 */
+/* 骰子盒样式：实线边框 */
 .dice-box {
     border: 1px solid rgba(60, 60, 109, 0.3);
     padding: 15px;
@@ -226,14 +226,9 @@ tw-sidebar { display: none; }</style><script role="script" id="twine-user-script
     min-width: 200px;
 }
 
-/* 奖励框：用框圈起来的格式 */
-.reward-box {
-    border: 1px solid #3c3c6d;
-    display: inline-block;
-    padding: 8px 20px;
-    font-weight: bold;
-    font-size: 1.1em;
-    margin-top: 10px;
+/* 获得物品样式：仅加粗，不修改字号 */
+.item-get {
+    margin-top: 20px;
 }
 
 .simple-divider-blue {
@@ -371,8 +366,8 @@ tw-link {
     为表感谢，调供员送你一份奖品。
   &lt;/div&gt;
 
-  &lt;div class=&quot;reward-box&quot;&gt;
-    获得：不死图腾
+  &lt;div class=&quot;item-get&quot;&gt;
+    &#39;&#39;获得：不死图腾&#39;&#39;
   &lt;/div&gt;
   (set: $hasTotem to true)
 ]
@@ -408,7 +403,7 @@ tw-link {
     line-height: 1.8;
 }
 
-/* 骰子盒样式 */
+/* 骰子盒样式：实线边框 */
 .dice-box {
     border: 1px solid rgba(60, 60, 109, 0.3);
     padding: 15px;
@@ -417,14 +412,9 @@ tw-link {
     min-width: 200px;
 }
 
-/* 获得物品/奖励框样式 */
-.reward-box {
-    border: 1px solid #3c3c6d;
-    display: inline-block;
-    padding: 8px 25px;
-    font-weight: bold;
-    font-size: 1.1em;
-    margin-top: 10px;
+/* 获得物品样式：仅加粗，不修改字号，无边框 */
+.item-get {
+    margin-top: 20px;
 }
 
 .simple-divider-blue {
