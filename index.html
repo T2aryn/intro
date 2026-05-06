@@ -259,8 +259,37 @@ tw-link {
 &lt;div class=&quot;story-wrapper&quot;&gt;
 
 &lt;div class=&quot;narrative-block&quot;&gt;
-你选择了调查见闻社。&lt;br&gt;&lt;br&gt;
-一楼的大厅摆放着许多书籍，看一下说不定会有意外收获。
+  你选择了调查见闻社。&lt;br&gt;&lt;br&gt;
+  见闻社由两栋建筑组成，外观采用统一的青灰黑配色——铜绿与深板岩铺作屋顶，砂岩与白桦木砌成墙面，沉静而内敛。
+&lt;/div&gt;
+
+&lt;div class=&quot;archive-box&quot;&gt;
+  &lt;div class=&quot;info-row&quot;&gt;
+    &lt;strong&gt;其一为塔楼&lt;/strong&gt;：一楼是接待大厅；二楼与档案室为内部办公区，设有主编办公室、会议室与制图室等，均不对外开放。
+  &lt;/div&gt;
+  &lt;div class=&quot;info-row&quot;&gt;
+    &lt;strong&gt;其二是员工专用&lt;/strong&gt;：双层复式建筑，办公区不对外开放。
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;press-section&quot;&gt;
+  &lt;div class=&quot;press-motto&quot;&gt;“以报纸与图录抵抗历史的遗忘”&lt;/div&gt;
+  见闻社的日常工作围绕追踪诅咒、寻求真相展开。
+  &lt;div class=&quot;publication-item&quot;&gt;
+    &lt;span class=&quot;pub-tag&quot;&gt;定期发行&lt;/span&gt; &lt;strong&gt;《薄暮之歌》&lt;/strong&gt;：每两周一期，内容涵盖社区动态、研究进展、调查报告等。
+  &lt;/div&gt;
+  &lt;div class=&quot;publication-item&quot;&gt;
+    &lt;span class=&quot;pub-tag&quot;&gt;匿名小报&lt;/span&gt; &lt;strong&gt;《碎语拾遗》&lt;/strong&gt;：内容不限，真伪自辨，仅供消遣。
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;narrative-block&quot; style=&quot;margin-top: 25px;&quot;&gt;
+  成员分工各不相同——有人外出追踪诅咒的第一手痕迹，有人蹲在档案室翻旧纸堆，有人测绘废墟，有人把断断续续的情报整理成可读的文字。&lt;br&gt;
+  &lt;strong&gt;报社、档案馆、勘探队，三重身份叠在一起，就是见闻社。&lt;/strong&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;narrative-block&quot;&gt;
+  你步入一楼的接待大厅，四周摆放着许多书籍。随手翻翻，说不定会有意外收获。
 &lt;/div&gt;
 
 &lt;hr class=&quot;simple-divider-blue&quot;&gt;
@@ -303,7 +332,8 @@ tw-link {
     text-align: center;
     max-width: 620px;
     margin: 0 auto;
-    padding-top: 10vh;
+    padding-top: 8vh;
+    padding-bottom: 5vh;
 }
 
 .narrative-block {
@@ -311,7 +341,52 @@ tw-link {
     line-height: 1.8;
 }
 
-/* 统一实线边框骰子盒 */
+/* 档案分栏样式 */
+.archive-box {
+    text-align: left;
+    background: rgba(60, 60, 109, 0.04);
+    border: 1px solid rgba(60, 60, 109, 0.1);
+    padding: 15px 20px;
+    margin-bottom: 30px;
+}
+
+.info-row {
+    font-size: 0.95em;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed rgba(60, 60, 109, 0.1);
+    padding-bottom: 10px;
+}
+
+.info-row:last-child { border: none; }
+
+/* 报刊板块样式 */
+.press-section {
+    text-align: left;
+    border-left: 3px solid #3c3c6d;
+    padding-left: 20px;
+    margin: 30px 0;
+}
+
+.press-motto {
+    font-style: italic;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+
+.publication-item {
+    margin-top: 15px;
+    font-size: 0.95em;
+}
+
+.pub-tag {
+    font-size: 0.8em;
+    background: #3c3c6d;
+    color: #dee0d7;
+    padding: 1px 5px;
+    margin-right: 5px;
+}
+
+/* 检定相关 */
 .dice-box {
     border: 1px solid rgba(60, 60, 109, 0.3);
     padding: 15px;
@@ -328,18 +403,24 @@ tw-link {
 }
 
 .choice-container {
-    line-height: 2.5;
+    line-height: 2.8;
 }
 
 .choice-prompt {
     font-size: 0.9em;
     opacity: 0.7;
     margin-bottom: 10px;
+    letter-spacing: 2px;
 }
 
 tw-link {
     font-weight: bold;
+    color: #3c3c6d !important;
     text-decoration: none !important;
+}
+
+tw-link:hover {
+    opacity: 0.6;
 }
 &lt;/style&gt;</tw-passagedata><tw-passagedata pid="5" name="集群" tags="" position="1925,750" size="100,100">(enchant:?page,(text-colour:#3c3c6d)+(bg:#dee0d7))
 
@@ -347,8 +428,34 @@ tw-link {
 &lt;div class=&quot;story-wrapper&quot;&gt;
 
 &lt;div class=&quot;narrative-block&quot;&gt;
-你选择了调查集群。&lt;br&gt;&lt;br&gt;
-集群的工坊似乎进行了重建，物资箱杂乱地堆放在室外，还在等待整理。你也想搭把手。
+  你选择了调查集群。&lt;br&gt;&lt;br&gt;
+  集群由飞艇与工坊构成，外观采用统一的黄黑配色，正如蜜蜂标志一般，醒目而有序。其信条以灾后重建为根基——团结与奉献，以古科技与蓝图重塑废墟。至于更早之前公社如何运转，人们已经没有太多印象了。
+&lt;/div&gt;
+
+&lt;div class=&quot;workshop-panel&quot;&gt;
+  &lt;div class=&quot;blueprint-tag&quot;&gt;集群构造 · 蓝图概要&lt;/div&gt;
+  
+  &lt;div class=&quot;structure-list&quot;&gt;
+    &lt;div class=&quot;structure-block&quot;&gt;
+      &lt;div class=&quot;block-header&quot;&gt;▶ 飞艇区域&lt;/div&gt;
+      &lt;div class=&quot;block-body&quot;&gt;休息区、总调度室、办公室、会议室、物资仓库&lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;structure-block&quot;&gt;
+      &lt;div class=&quot;block-header&quot;&gt;▶ 工坊区域&lt;/div&gt;
+      &lt;div class=&quot;block-body&quot;&gt;装备维护车间、研究实验室&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;div class=&quot;access-notice&quot;&gt;※ 以上大部分区域对成员开放，不设过多限制。&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;narrative-block&quot;&gt;
+  工程师终日埋头于设计蓝图与古科技，试图从旧世界的碎片里拼出可用的答案；学者则守在观测台前，记录折声点的每一次波动。这里是文明重建的前沿，也是直面世界伤痕的哨站。
+&lt;/div&gt;
+
+&lt;div class=&quot;narrative-block highlight-task&quot;&gt;
+  集群的工坊似乎进行了重建，物资箱杂乱地堆放在室外，还在等待整理。你也想搭把手。
 &lt;/div&gt;
 
 &lt;hr class=&quot;simple-divider-blue&quot;&gt;
@@ -395,7 +502,8 @@ tw-link {
     text-align: center;
     max-width: 620px;
     margin: 0 auto;
-    padding-top: 10vh;
+    padding-top: 8vh;
+    padding-bottom: 5vh;
 }
 
 .narrative-block {
@@ -403,7 +511,68 @@ tw-link {
     line-height: 1.8;
 }
 
-/* 骰子盒样式：实线边框 */
+/* 集群面板样式：蓝图感 */
+.workshop-panel {
+    text-align: left;
+    background: rgba(60, 60, 109, 0.04);
+    border: 1px solid rgba(60, 60, 109, 0.15);
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 480px; /* 稍微缩窄一点，上下结构更好看 */
+    position: relative;
+}
+
+.blueprint-tag {
+    font-size: 0.85em;
+    font-weight: bold;
+    opacity: 0.7;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(60, 60, 109, 0.1);
+    padding-bottom: 5px;
+}
+
+/* 上下结构排版 */
+.structure-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.structure-block {
+    font-size: 0.95em;
+    line-height: 1.6;
+}
+
+.block-header {
+    font-weight: bold;
+    font-size: 0.9em;
+    opacity: 0.8;
+    margin-bottom: 4px;
+}
+
+.block-body {
+    font-size: 0.9em;
+    opacity: 0.8;
+    padding-left: 1.2em;
+    border-left: 1px solid rgba(60, 60, 109, 0.08);
+}
+
+.access-notice {
+    margin-top: 20px;
+    font-size: 0.8em;
+    font-style: italic;
+    opacity: 0.6;
+}
+
+/* 强调当前任务 */
+.highlight-task {
+    padding: 15px;
+    border: 1px dashed rgba(60, 60, 109, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* 检定模块 */
 .dice-box {
     border: 1px solid rgba(60, 60, 109, 0.3);
     padding: 15px;
@@ -412,9 +581,9 @@ tw-link {
     min-width: 200px;
 }
 
-/* 获得物品样式：仅加粗，不修改字号，无边框 */
 .item-get {
     margin-top: 20px;
+    font-weight: bold;
 }
 
 .simple-divider-blue {
@@ -425,18 +594,24 @@ tw-link {
 }
 
 .choice-container {
-    line-height: 2.5;
+    line-height: 2.8;
 }
 
 .choice-prompt {
     font-size: 0.9em;
     opacity: 0.7;
     margin-bottom: 10px;
+    letter-spacing: 2px;
 }
 
 tw-link {
     font-weight: bold;
+    color: #3c3c6d !important;
     text-decoration: none !important;
+}
+
+tw-link:hover {
+    opacity: 0.6;
 }
 &lt;/style&gt;</tw-passagedata><tw-passagedata pid="6" name="首页" tags="" position="1450,25" size="100,100">(enchant:?page,(text-colour:#eeedd7)+(bg:(gradient: 272, 0,#1d202f,0.2602,#385753,0.4787,#476b6c,0.6743,#324257,0.8394,#465f67,1,#14333e)))
 
@@ -1088,7 +1263,7 @@ input {
 &lt;div class=&quot;story-wrapper&quot;&gt;
 
   &lt;div class=&quot;narrative-block&quot;&gt;
-    你来到了&lt;strong&gt;中立之域&lt;/strong&gt;的出生点。
+    你来到了&lt;strong&gt;中立之域&lt;/strong&gt;的出生点，树屋。
   &lt;/div&gt;
 
   &lt;div class=&quot;narrative-block&quot;&gt;
